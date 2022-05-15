@@ -7,3 +7,13 @@ Try running some of the following tasks:
 -compile the contract
 -add the private key in hardhat.config file
 -then run the deploy command
+
+COMPILE
+- npx hardhat compile
+
+DEPLOY
+- npx hardhat run scripts/deploy.js --network rinkeby
+
+
+TESTING
+- npm run test
