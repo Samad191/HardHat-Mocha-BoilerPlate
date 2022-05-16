@@ -27,7 +27,7 @@ contract Greeter {
     
     string public message;
 
-    constructor (string memory _initialMessage) public {
+    constructor (string memory _initialMessage) {
         message = _initialMessage;
     }
 
